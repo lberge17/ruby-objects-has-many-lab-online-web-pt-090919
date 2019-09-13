@@ -1,4 +1,5 @@
 class Post 
+<<<<<<< HEAD
   attr_accessor :title, :author
   @@all = []
   
@@ -19,4 +20,7 @@ class Post
     @@all
   end
   
+=======
+  attr_accessor :name, :title
+>>>>>>> 994f29327147820d656d13937320fcfbd679b06a
 end

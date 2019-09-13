@@ -1,4 +1,5 @@
 class Author
+<<<<<<< HEAD
   attr_accessor :name, :posts
   @@post_count = 0
   
@@ -25,5 +26,9 @@ class Author
   def self.post_count
     @@post_count
   end
+=======
+  @@posts = []
+  
+>>>>>>> 994f29327147820d656d13937320fcfbd679b06a
   
 end
